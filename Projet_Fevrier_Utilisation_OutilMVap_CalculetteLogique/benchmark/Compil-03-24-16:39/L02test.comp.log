@@ -1,0 +1,7 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+Recherche de x dans table locale: {x=AdresseType@75412c2f, return=AdresseType@282ba1e}
+Recherche de return dans table locale: {x=AdresseType@75412c2f, return=AdresseType@282ba1e}
+y pas trouvé en local
+Recherche de y dans table globale: {y=AdresseType@79698539} => @AdresseType@79698539
+y pas trouvé en local
+Recherche de y dans table globale: {y=AdresseType@79698539} => @AdresseType@79698539

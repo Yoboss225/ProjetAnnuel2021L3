@@ -1,0 +1,9 @@
+PUSHI 0
+PUSHI 0
+STOREG 0
+nullnullnullnullPUSHG 0
+nullnullPUSHG 0
+PUSHI 40
+ADD
+  HALT
+

@@ -1,0 +1,24 @@
+line 2:6 mismatched input '1' expecting FLOAT
+line 6:6 mismatched input '3' expecting FLOAT
+line 12:6 mismatched input '1' expecting FLOAT
+line 16:6 mismatched input '1' expecting FLOAT
+line 21:6 mismatched input '3' expecting FLOAT
+line 24:6 mismatched input '4' expecting FLOAT
+line 33:6 mismatched input '1' expecting FLOAT
+line 36:6 mismatched input '1' expecting FLOAT
+line 40:6 mismatched input '1' expecting FLOAT
+line 44:6 mismatched input '3' expecting FLOAT
+line 47:6 mismatched input '4' expecting FLOAT
+line 57:6 mismatched input '1' expecting FLOAT
+line 60:6 mismatched input '1' expecting FLOAT
+line 64:6 mismatched input '3' expecting FLOAT
+line 72:6 mismatched input '2' expecting FLOAT
+line 80:6 mismatched input '4' expecting FLOAT
+Exception in thread "main" java.lang.NullPointerException
+	at MVaPAssemblerListener.enterInstr2f(MVaPAssemblerListener.java:92)
+	at MVaPParser$Instr2fContext.enterRule(MVaPParser.java:555)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.enterRule(ParseTreeWalker.java:50)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:33)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:36)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:36)
+	at MVaPAssembler.main(MVaPAssembler.java:37)

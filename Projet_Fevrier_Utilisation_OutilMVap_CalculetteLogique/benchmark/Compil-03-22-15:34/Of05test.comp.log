@@ -1,0 +1,20 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+line 3:12 token recognition error at: '.'
+line 8:16 token recognition error at: '.'
+line 12:5 token recognition error at: '.'
+line 12:9 token recognition error at: '.'
+Recherche de x dans table locale: {x=AdresseType@64c64813, return=AdresseType@3ecf72fd}
+Recherche de return dans table locale: {x=AdresseType@64c64813, return=AdresseType@3ecf72fd}
+Recherche de i dans table locale: {i=AdresseType@48140564, j=AdresseType@58ceff1, return=AdresseType@7c30a502}
+Recherche de j dans table locale: {i=AdresseType@48140564, j=AdresseType@58ceff1, return=AdresseType@7c30a502}
+Recherche de i dans table locale: {i=AdresseType@48140564, j=AdresseType@58ceff1, return=AdresseType@7c30a502}
+Recherche de j dans table locale: {i=AdresseType@48140564, j=AdresseType@58ceff1, return=AdresseType@7c30a502}
+Recherche de j dans table locale: {i=AdresseType@48140564, j=AdresseType@58ceff1, return=AdresseType@7c30a502}
+Recherche de i dans table locale: {i=AdresseType@48140564, j=AdresseType@58ceff1, return=AdresseType@7c30a502}
+Recherche de i dans table locale: {i=AdresseType@48140564, j=AdresseType@58ceff1, return=AdresseType@7c30a502}
+Recherche de i dans table locale: {i=AdresseType@48140564, j=AdresseType@58ceff1, return=AdresseType@7c30a502}
+Recherche de return dans table locale: {i=AdresseType@48140564, j=AdresseType@58ceff1, return=AdresseType@7c30a502}
+z pas trouvé en local
+Recherche de z dans table globale: {z=AdresseType@68837a77} => @AdresseType@68837a77
+z pas trouvé en local
+Recherche de z dans table globale: {z=AdresseType@68837a77} => @AdresseType@68837a77

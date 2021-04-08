@@ -1,0 +1,17 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+line 1:9 token recognition error at: '.'
+line 3:13 token recognition error at: '.'
+line 6:7 token recognition error at: '.'
+line 1:10 extraneous input '0' expecting {';', NEWLINE}
+x pas trouvé en local
+Recherche de x dans table globale: {x=AdresseType@1ff8b8f} => @AdresseType@1ff8b8f
+Recherche de x dans table locale: {x=AdresseType@3cb5cdba, return=AdresseType@56cbfb61}
+Recherche de return dans table locale: {x=AdresseType@3cb5cdba, return=AdresseType@56cbfb61}
+x pas trouvé en local
+Recherche de x dans table globale: {x=AdresseType@1ff8b8f} => @AdresseType@1ff8b8f
+x pas trouvé en local
+Recherche de x dans table globale: {x=AdresseType@1ff8b8f} => @AdresseType@1ff8b8f
+x pas trouvé en local
+Recherche de x dans table globale: {x=AdresseType@1ff8b8f} => @AdresseType@1ff8b8f
+x pas trouvé en local
+Recherche de x dans table globale: {x=AdresseType@1ff8b8f} => @AdresseType@1ff8b8f

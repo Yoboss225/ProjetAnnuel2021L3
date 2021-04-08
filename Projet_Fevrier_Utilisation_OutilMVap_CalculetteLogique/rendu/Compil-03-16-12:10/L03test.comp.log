@@ -1,0 +1,12 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+x pas trouvé en local
+Recherche de x dans table globale: {x=AdresseType@cd2dae5} => @AdresseType@cd2dae5
+line 2:5 no viable alternative at input 'intg('
+line 2:6 extraneous input 'int' expecting {'(', '-', ENTIER, IDENTIFIANT}
+x pas trouvé en local
+Recherche de x dans table globale: {x=AdresseType@cd2dae5} => @AdresseType@cd2dae5
+line 2:13 extraneous input '{' expecting {';', NEWLINE}
+line 3:9 no viable alternative at input 'returnx'
+x pas trouvé en local
+Recherche de x dans table globale: {x=AdresseType@cd2dae5} => @AdresseType@cd2dae5
+line 4:0 mismatched input '}' expecting {<EOF>, '(', '-', ';', 'read(', 'write(', 'while', '{', 'if', 'for', 'repeat', NEWLINE, ENTIER, IDENTIFIANT}

@@ -1,0 +1,6 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+line 2:4 token recognition error at: 'N'
+line 5:20 token recognition error at: 'N'
+line 6:13 token recognition error at: 'N'
+line 6:15 token recognition error at: 'N'
+line 2:5 no viable alternative at input 'int\n'

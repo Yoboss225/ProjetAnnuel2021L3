@@ -1,0 +1,9 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+line 3:7 token recognition error at: '.'
+line 3:17 token recognition error at: '.'
+y pas trouvé en local
+Recherche de y dans table globale: {y=AdresseType@2fc14f68} => @AdresseType@2fc14f68
+line 3:8 mismatched input '3' expecting {')', '*', '/', '+', '-'}
+y pas trouvé en local
+Recherche de y dans table globale: {y=AdresseType@2fc14f68} => @AdresseType@2fc14f68
+line 3:18 extraneous input ')' expecting {';', NEWLINE}

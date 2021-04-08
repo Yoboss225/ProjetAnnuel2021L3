@@ -1,0 +1,8 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+line 3:11 token recognition error at: '.'
+line 5:7 token recognition error at: '.'
+Recherche de return dans table locale: {return=AdresseType@64c64813}
+x pas trouvé en local
+Recherche de x dans table globale: {x=AdresseType@13969fbe} => @AdresseType@13969fbe
+x pas trouvé en local
+Recherche de x dans table globale: {x=AdresseType@13969fbe} => @AdresseType@13969fbe

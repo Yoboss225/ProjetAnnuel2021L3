@@ -1,0 +1,15 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+line 1:9 token recognition error at: '.'
+line 1:10 extraneous input '3' expecting {';', NEWLINE}
+i pas trouvé en local
+Recherche de i dans table globale: {i=AdresseType@1ff8b8f} => @AdresseType@1ff8b8f
+j pas trouvé en local
+Recherche de j dans table globale: {i=AdresseType@1ff8b8f, j=AdresseType@6ea6d14e, k=AdresseType@6ad5c04e} => @AdresseType@6ea6d14e
+k pas trouvé en local
+Recherche de k dans table globale: {i=AdresseType@1ff8b8f, j=AdresseType@6ea6d14e, k=AdresseType@6ad5c04e} => @AdresseType@6ad5c04e
+j pas trouvé en local
+Recherche de j dans table globale: {i=AdresseType@1ff8b8f, j=AdresseType@6ea6d14e, k=AdresseType@6ad5c04e} => @AdresseType@6ea6d14e
+i pas trouvé en local
+Recherche de i dans table globale: {i=AdresseType@1ff8b8f, j=AdresseType@6ea6d14e, k=AdresseType@6ad5c04e} => @AdresseType@1ff8b8f
+k pas trouvé en local
+Recherche de k dans table globale: {i=AdresseType@1ff8b8f, j=AdresseType@6ea6d14e, k=AdresseType@6ad5c04e} => @AdresseType@6ad5c04e

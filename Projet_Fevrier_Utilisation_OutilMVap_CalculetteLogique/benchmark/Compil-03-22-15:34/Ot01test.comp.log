@@ -1,0 +1,30 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+line 19:6 token recognition error at: '.'
+line 24:0 token recognition error at: '#'
+line 24:2 token recognition error at: 'L'
+line 24:21 token recognition error at: 'é'
+line 24:31 token recognition error at: '''
+line 24:49 token recognition error at: 'é'
+line 24:63 token recognition error at: 'é'
+line 24:99 token recognition error at: '''
+line 24:112 token recognition error at: 'é'
+line 25:0 token recognition error at: '#'
+line 25:2 token recognition error at: 'O'
+line 25:37 token recognition error at: '''
+line 25:70 token recognition error at: 'é'
+line 25:103 token recognition error at: '''
+line 25:132 token recognition error at: '.'
+line 29:5 token recognition error at: '.'
+line 34:0 token recognition error at: '#'
+line 34:2 token recognition error at: 'L'
+line 34:21 token recognition error at: 'é'
+line 34:31 token recognition error at: '''
+line 34:49 token recognition error at: 'é'
+line 34:63 token recognition error at: 'é'
+line 34:99 token recognition error at: '''
+line 34:112 token recognition error at: 'é'
+line 3:5 no viable alternative at input 'boolb'
+b pas trouvé en local
+Recherche de b dans table globale: {f=AdresseType@63d4e2ba, x=AdresseType@7bb11784} => @null
+## Erreur : la variable "b" n'existe pas
+Problems calling org.antlr.v4.gui.TestRig.main(args)

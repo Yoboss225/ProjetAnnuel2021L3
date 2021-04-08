@@ -1,0 +1,27 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+y pas trouvé en local
+Recherche de y dans table globale: {x=AdresseType@5a8806ef, y=AdresseType@6c49835d} => @AdresseType@6c49835d
+z pas trouvé en local
+Recherche de z dans table globale: {x=AdresseType@5a8806ef, y=AdresseType@6c49835d, z=AdresseType@23faf8f2} => @AdresseType@23faf8f2
+and pas trouvé en local
+Recherche de and dans table globale: {and=AdresseType@2d6eabae, x=AdresseType@5a8806ef, y=AdresseType@6c49835d, z=AdresseType@23faf8f2} => @AdresseType@2d6eabae
+or pas trouvé en local
+Recherche de or dans table globale: {or=AdresseType@4e7dc304, and=AdresseType@2d6eabae, x=AdresseType@5a8806ef, y=AdresseType@6c49835d, z=AdresseType@23faf8f2} => @AdresseType@4e7dc304
+x pas trouvé en local
+Recherche de x dans table globale: {or=AdresseType@4e7dc304, and=AdresseType@2d6eabae, x=AdresseType@5a8806ef, y=AdresseType@6c49835d, z=AdresseType@23faf8f2} => @AdresseType@5a8806ef
+x pas trouvé en local
+Recherche de x dans table globale: {or=AdresseType@4e7dc304, and=AdresseType@2d6eabae, x=AdresseType@5a8806ef, y=AdresseType@6c49835d, z=AdresseType@23faf8f2} => @AdresseType@5a8806ef
+and pas trouvé en local
+Recherche de and dans table globale: {or=AdresseType@4e7dc304, and=AdresseType@2d6eabae, x=AdresseType@5a8806ef, y=AdresseType@6c49835d, z=AdresseType@23faf8f2} => @AdresseType@2d6eabae
+y pas trouvé en local
+Recherche de y dans table globale: {or=AdresseType@4e7dc304, and=AdresseType@2d6eabae, x=AdresseType@5a8806ef, y=AdresseType@6c49835d, z=AdresseType@23faf8f2} => @AdresseType@6c49835d
+and pas trouvé en local
+Recherche de and dans table globale: {or=AdresseType@4e7dc304, and=AdresseType@2d6eabae, x=AdresseType@5a8806ef, y=AdresseType@6c49835d, z=AdresseType@23faf8f2} => @AdresseType@2d6eabae
+x pas trouvé en local
+Recherche de x dans table globale: {or=AdresseType@4e7dc304, and=AdresseType@2d6eabae, x=AdresseType@5a8806ef, y=AdresseType@6c49835d, z=AdresseType@23faf8f2} => @AdresseType@5a8806ef
+or pas trouvé en local
+Recherche de or dans table globale: {or=AdresseType@4e7dc304, and=AdresseType@2d6eabae, x=AdresseType@5a8806ef, y=AdresseType@6c49835d, z=AdresseType@23faf8f2} => @AdresseType@4e7dc304
+z pas trouvé en local
+Recherche de z dans table globale: {or=AdresseType@4e7dc304, and=AdresseType@2d6eabae, x=AdresseType@5a8806ef, y=AdresseType@6c49835d, z=AdresseType@23faf8f2} => @AdresseType@23faf8f2
+or pas trouvé en local
+Recherche de or dans table globale: {or=AdresseType@4e7dc304, and=AdresseType@2d6eabae, x=AdresseType@5a8806ef, y=AdresseType@6c49835d, z=AdresseType@23faf8f2} => @AdresseType@4e7dc304

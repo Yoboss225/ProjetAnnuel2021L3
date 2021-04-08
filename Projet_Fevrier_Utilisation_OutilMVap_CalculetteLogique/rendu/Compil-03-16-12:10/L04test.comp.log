@@ -1,0 +1,9 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+line 5:11 token recognition error at: ','
+line 12:5 token recognition error at: ','
+line 2:5 no viable alternative at input 'intg('
+line 2:6 extraneous input 'int' expecting {'(', '-', ENTIER, IDENTIFIANT}
+x pas trouvé en local
+Recherche de x dans table globale: {z=AdresseType@1f554b06} => @null
+## Erreur : la variable "x" n'existe pas
+Problems calling org.antlr.v4.gui.TestRig.main(args)

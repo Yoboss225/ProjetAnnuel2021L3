@@ -1,0 +1,18 @@
+line 3:6 mismatched input '110' expecting FLOAT
+line 7:6 mismatched input '54' expecting FLOAT
+line 11:6 mismatched input '0' expecting FLOAT
+line 15:6 mismatched input '0' expecting FLOAT
+line 24:6 mismatched input '0' expecting FLOAT
+line 27:6 mismatched input '0' expecting FLOAT
+line 34:6 mismatched input '1' expecting FLOAT
+line 40:6 mismatched input '0' expecting FLOAT
+line 43:6 mismatched input '0' expecting FLOAT
+line 50:6 mismatched input '1' expecting FLOAT
+Exception in thread "main" java.lang.NullPointerException
+	at MVaPAssemblerListener.enterInstr2f(MVaPAssemblerListener.java:92)
+	at MVaPParser$Instr2fContext.enterRule(MVaPParser.java:555)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.enterRule(ParseTreeWalker.java:50)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:33)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:36)
+	at org.antlr.v4.runtime.tree.ParseTreeWalker.walk(ParseTreeWalker.java:36)
+	at MVaPAssembler.main(MVaPAssembler.java:37)

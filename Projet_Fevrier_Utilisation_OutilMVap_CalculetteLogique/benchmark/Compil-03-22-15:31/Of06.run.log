@@ -1,0 +1,3 @@
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at CBaP.execute(CBaP.java:164)
+	at CBaP.main(CBaP.java:279)

@@ -1,0 +1,73 @@
+Warning: TestRig moved to org.antlr.v4.gui.TestRig; calling automatically
+line 6:11 token recognition error at: '.'
+line 8:26 token recognition error at: '.'
+line 14:9 token recognition error at: '.'
+line 16:20 token recognition error at: '.'
+line 18:23 token recognition error at: '.'
+Recherche de s dans table locale: {s=AdresseType@233c0b17, prec=AdresseType@63d4e2ba, return=AdresseType@7bb11784}
+Recherche de r dans table locale: {s=AdresseType@233c0b17, prec=AdresseType@63d4e2ba, return=AdresseType@7bb11784}
+r pas trouvé en local
+Recherche de r dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@1e643faf
+Recherche de i dans table locale: {s=AdresseType@233c0b17, prec=AdresseType@63d4e2ba, return=AdresseType@7bb11784}
+i pas trouvé en local
+Recherche de i dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@6e8dacdf
+Recherche de i dans table locale: {s=AdresseType@233c0b17, prec=AdresseType@63d4e2ba, return=AdresseType@7bb11784}
+i pas trouvé en local
+Recherche de i dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@6e8dacdf
+Recherche de prec dans table locale: {s=AdresseType@233c0b17, prec=AdresseType@63d4e2ba, return=AdresseType@7bb11784}
+Recherche de i dans table locale: {s=AdresseType@233c0b17, prec=AdresseType@63d4e2ba, return=AdresseType@7bb11784}
+i pas trouvé en local
+Recherche de i dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@6e8dacdf
+Recherche de i dans table locale: {s=AdresseType@233c0b17, prec=AdresseType@63d4e2ba, return=AdresseType@7bb11784}
+i pas trouvé en local
+Recherche de i dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@6e8dacdf
+Recherche de r dans table locale: {s=AdresseType@233c0b17, prec=AdresseType@63d4e2ba, return=AdresseType@7bb11784}
+r pas trouvé en local
+Recherche de r dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@1e643faf
+Recherche de s dans table locale: {s=AdresseType@233c0b17, prec=AdresseType@63d4e2ba, return=AdresseType@7bb11784}
+Recherche de r dans table locale: {s=AdresseType@233c0b17, prec=AdresseType@63d4e2ba, return=AdresseType@7bb11784}
+r pas trouvé en local
+Recherche de r dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@1e643faf
+Recherche de r dans table locale: {s=AdresseType@233c0b17, prec=AdresseType@63d4e2ba, return=AdresseType@7bb11784}
+r pas trouvé en local
+Recherche de r dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@1e643faf
+Recherche de r dans table locale: {s=AdresseType@233c0b17, prec=AdresseType@63d4e2ba, return=AdresseType@7bb11784}
+r pas trouvé en local
+Recherche de r dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@1e643faf
+Recherche de return dans table locale: {s=AdresseType@233c0b17, prec=AdresseType@63d4e2ba, return=AdresseType@7bb11784}
+Recherche de r dans table locale: {prec=AdresseType@90f6bfd, return=AdresseType@47f6473}
+r pas trouvé en local
+Recherche de r dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@1e643faf
+Recherche de i dans table locale: {prec=AdresseType@90f6bfd, return=AdresseType@47f6473}
+i pas trouvé en local
+Recherche de i dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@6e8dacdf
+Recherche de i dans table locale: {prec=AdresseType@90f6bfd, return=AdresseType@47f6473}
+i pas trouvé en local
+Recherche de i dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@6e8dacdf
+Recherche de prec dans table locale: {prec=AdresseType@90f6bfd, return=AdresseType@47f6473}
+Recherche de i dans table locale: {prec=AdresseType@90f6bfd, return=AdresseType@47f6473}
+i pas trouvé en local
+Recherche de i dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@6e8dacdf
+Recherche de i dans table locale: {prec=AdresseType@90f6bfd, return=AdresseType@47f6473}
+i pas trouvé en local
+Recherche de i dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@6e8dacdf
+Recherche de r dans table locale: {prec=AdresseType@90f6bfd, return=AdresseType@47f6473}
+r pas trouvé en local
+Recherche de r dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@1e643faf
+line 16:24 mismatched input 'float' expecting {'(', '-', ENTIER, IDENTIFIANT}
+line 16:30 mismatched input 'i' expecting {')', '*', '/', '+', '-'}
+Recherche de r dans table locale: {prec=AdresseType@90f6bfd, return=AdresseType@47f6473}
+r pas trouvé en local
+Recherche de r dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@1e643faf
+Recherche de i dans table locale: {prec=AdresseType@90f6bfd, return=AdresseType@47f6473}
+i pas trouvé en local
+Recherche de i dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@6e8dacdf
+Recherche de i dans table locale: {prec=AdresseType@90f6bfd, return=AdresseType@47f6473}
+i pas trouvé en local
+Recherche de i dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@6e8dacdf
+line 16:33 extraneous input ')' expecting {';', NEWLINE}
+Recherche de r dans table locale: {prec=AdresseType@90f6bfd, return=AdresseType@47f6473}
+r pas trouvé en local
+Recherche de r dans table globale: {p=AdresseType@3b6eb2ec, r=AdresseType@1e643faf, i=AdresseType@6e8dacdf} => @AdresseType@1e643faf
+Recherche de prec dans table locale: {prec=AdresseType@90f6bfd, return=AdresseType@47f6473}
+Recherche de return dans table locale: {prec=AdresseType@90f6bfd, return=AdresseType@47f6473}
