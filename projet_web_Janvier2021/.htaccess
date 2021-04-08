@@ -1,0 +1,11 @@
+#Redirect to subfolder public
+RewriteEngine On
+RewriteBase /projet-inf5c-2020/
+
+RewriteCond %{THE_REQUEST} /public/(^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+
+RewriteRule ^((?!public|upload/).*)$ public/$1 [L,NC]
+
+# Empêcher le listing des fichiers et dossiers
+Options -Indexes

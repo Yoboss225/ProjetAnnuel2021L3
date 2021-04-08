@@ -1,0 +1,570 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+.itemListe li {
+    list-style-type: square;
+}
+
+.itemListe li span {
+    font-weight: bold;
+    display: block;
+}
+
+code {
+    font-size: 0.9em;
+    background-color: lightgray
+}
+
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f1ece9;
+    color: black;
+    min-width: 350px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url('./../fonts/HelveticaNeueL.ttf');
+}
+
+/************ HEADER *******************/
+
+header {
+    background-color: #b39695;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    left: 0;
+    min-width: 350px;
+}
+
+.header-wrap {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2vw 3vw;
+}
+
+.header-content {
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.header-title {
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-family: 'Krona One', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 50%;
+}
+
+.header-title a {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.header-nav {
+    text-align: right;
+    margin-left: auto;
+    padding-left: 2.5vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.header-nav ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header-nav a {
+    cursor: pointer;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    font-weight: 400;
+}
+
+.header-nav nav li {
+    margin-left: 1.5vw;
+}
+
+/** https://stackoverflow.com/questions/29865832/border-bottom-from-left-to-right **/
+.header-nav li:hover:after {
+    width: 100%;
+}
+
+.header-nav li:after {
+    transition: all ease-in-out .2s;
+    background: none repeat scroll 0 0 black;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+}
+
+
+
+/******************************* MAIN PAGE ******************/
+main {
+    display: block;
+}
+
+.first-section {
+    padding-top: 165px;
+}
+
+section {
+    position: relative;
+}
+
+article {
+    justify-content: center;
+    max-width: 100%;
+    display: flex;
+}
+
+.article-content {
+    text-align: left;
+    max-width: 1400px;
+    padding: 0 4vw;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+    font-size: 1.1em;
+}
+
+.img-wrapper {
+    width: 60%;
+    margin-right: 6%;
+    margin-bottom: 0;
+}
+
+.img-wrapper a {
+    overflow: hidden;
+    /* display: flex; */
+    display: block;
+}
+
+.img-wrapper img {
+    top: 0;
+    max-width: 100%;
+    max-height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+}
+
+.details-date {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.details-title {
+    margin-bottom: 10px;
+    order: 1;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.8em;
+    font-family: 'Krona One', sans-serif;
+}
+
+.details-more {
+    color: #b39695;
+    order: 3;
+}
+
+.details-more a {
+    text-decoration: underline;
+}
+
+/*********** Footer *************/
+footer {
+    background-color: #000;
+    width: 100%;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    color: blanchedalmond;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    .header-title {
+        max-width: 100%;
+    }
+
+    .header-nav {
+        margin-left: 0;
+        margin-right: 0;
+        gap: 5px;
+    }
+
+    .article-content {
+        max-width: 100%;
+        padding: inherit;
+    }
+
+    .item {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .img-wrapper {
+        max-width: 70%;
+        margin-right: inherit;
+        width: inherit;
+    }
+
+    .details {
+        width: 90%;
+        padding: 2vw 5vw;
+    }
+
+    .details-title {
+        font-size: 2.2em;
+    }
+
+    .header-nav ul {
+        justify-content: center;
+    }
+
+}
+
+/************** SINGLE **************/
+.single-wrap {
+    width: 50%;
+    max-width: 1400px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.single-title {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.single-box {
+    position: relative;
+    clear: both;
+    height: auto;
+    padding: 0 17px 17px;
+}
+
+.single-img {
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
+.single-img img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.single-img-box {
+    overflow: hidden;
+}
+
+.single-img figcaption p {
+    text-align: right;
+    white-space: pre-wrap;
+    margin: 1rem 0;
+}
+
+p a {
+    color: #825441;
+    text-decoration: underline;
+}
+
+p a:hover {
+    color: #ffa07a;
+}
+
+.single-box p {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 1rem 0;
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 2em;
+    margin: 3rem 0 0;
+    font-weight: bold;
+    font-family: 'Krona One', serif;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px) {
+
+    .single-wrap {
+        width: 90%;
+    }
+
+    .single-title-item h1 {
+        font-size: 2em;
+    }
+
+    .actions {
+        gap: 8px 0;
+    }
+}
+
+/************* ANIMATIONS *******/
+
+header, footer {
+    transition: 180ms ease-in-out 140ms, transform 140ms ease-in-out;
+}
+
+.shrink {
+    transform: translateY(-100%);
+}
+
+.shrinkBottom {
+    transform: translateY(100%);
+}
+
+/*****A propos table ************/
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    min-width: 60px;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+    text-align: right;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    font-family: sans-serif;
+    font-size: .8em;
+    overflow: scroll;
+    margin: 0 auto;
+}
+
+.groupe h4, .realisations h4{
+    text-align: center;
+}
+
+@media (max-width : 500px){
+    th {
+        padding: 1.1em 0;
+    }
+    th[scope="row"] {
+        text-align: center;
+    }
+    h4 {
+        text-align : center;
+    }
+    table {
+        table-layout: fixed;
+        width: 100%;
+        font-size: xx-small;
+    }
+}
+
+
+/******** FORM *********/
+textarea, input {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+textarea {
+    height: 150px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+button, .button {
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 8px 20px;
+    box-shadow: none;
+    border: 1px solid #b39695;
+    color: #b39695;
+    transition: .5s;
+    cursor: pointer;
+    background: white;
+}
+
+button:hover, .button:hover {
+    color: white;
+    background: linear-gradient(to left, #b39695 50%, white 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.error, .noError {
+    display: block;
+    padding-bottom: 15px;
+}
+
+.error {
+    color: #9d1611;
+    font-weight: 600;
+}
+
+.noError {
+    color: #2d683a;
+    font-weight: 600;
+}
+
+/************* Button *************/
+.closebtn {
+    padding: 15px;
+    background: lightsalmon;
+    color: white;
+}
+
+.alert {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1440px;
+    padding: 20px;
+}
+
+/*************** Taille de police responsive **********/
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+@media screen and (min-width: 320px) {
+    html {
+        font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+}
+@media screen and (min-width: 1000px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+/*** Bouton de retour haut de page avec smooth scroll */
+a#cRetour {
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    background: #B88662;
+    position: fixed;
+    right: 20px;
+    opacity: 1;
+    z-index: 100;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+a#cRetour.cVisible {
+    bottom: 20px;
+    opacity: 1;
+}
+
+a#cRetour::before {
+    content: "\25b2";
+}
+
+a#cRetour.cInvisible {
+    bottom: -35px;
+    opacity: 0;
+    transition: all ease-in 0.5s;
+}
